@@ -33,11 +33,11 @@
 
         rise_layer {
             bindings = <
-&trans  &trans  &trans     &trans    &trans     &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans     &trans    &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans    &trans     &trans                      &trans  &trans             &trans           &trans  &trans  &trans
+&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &kp HOME                    &trans  &trans             &trans           &trans  &trans  &trans
+&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END                     &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
+&trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans  &trans  &trans             &trans           &trans  &trans  &trans
+                &trans     &trans    &trans     &trans    &trans    &trans  &trans  &trans             &trans           &trans
             >;
         };
 
